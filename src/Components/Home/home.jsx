@@ -1,4 +1,5 @@
 import { About } from "../About/about"
+import { Footer } from "../Footer/footer"
 import { Header } from "../Header/header"
 import { Projects } from "../Projects/projects"
 const Home = ()=> {
@@ -8,6 +9,7 @@ const Home = ()=> {
     <Header/>
     <About />
     <Projects/>
+    <Footer/>
     </div>
     
     </>)

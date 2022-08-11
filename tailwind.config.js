@@ -14,6 +14,7 @@ module.exports = {
       'black-p': '#161513',
       'grey-p': '#f2f1ef',
       'red-p': '#e94d35',
+      'red-s': '#e94d3570',
 
       
     },

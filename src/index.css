@@ -11,7 +11,7 @@ li {
   @apply p-4 list-none
 }
 
-button{
+button,.btn{
   @apply items-center m-4 bg-grey-p text-black-p px-5 py-2 rounded-md text-xl hover:bg-black-p hover:text-grey-p border ease-in duration-300
                     
 }
