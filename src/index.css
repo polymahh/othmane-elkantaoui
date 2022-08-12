@@ -8,7 +8,7 @@ body{
   @apply bg-grey-p
 }
 li {
-  @apply p-4 list-none
+  @apply p-4 list-none decoration-1 hover:cursor-pointer hover:underline hover:underline-offset-8
 }
 
 button,.btn{
@@ -16,7 +16,26 @@ button,.btn{
                     
 }
 
+input,textarea{
+  @apply rounded-md p-2 text-xl border border-grey-l focus:outline-red-s text-black-p
+}
 
+.anim{
+  position: absolute;
+  animation: anim 20s linear infinite ; 
+}
+
+.anims{
+  position: absolute;
+  animation: anims 20s linear infinite ; 
+  
+}
 
 
 @tailwind utilities;
+
+@keyframes anim  {
+  from   { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
+}
+

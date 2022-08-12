@@ -10,7 +10,7 @@ export const Footer = ()=> {
                 <div className="flex items-center gap-4 place-self-center lg:place-self-start">
                     <IoSnow className="text-2xl text-grey-p row-span-2"/>
                     <div>
-                    <a href=''>GitHub for this website</a>
+                    <a href='/'>GitHub for this website</a>
                     </div>
                     
                 </div>

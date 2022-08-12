@@ -13,6 +13,7 @@ module.exports = {
     colors: {
       'black-p': '#161513',
       'grey-p': '#f2f1ef',
+      'grey-l': '#d3d3d3',
       'red-p': '#e94d35',
       'red-s': '#e94d3570',
 
