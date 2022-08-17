@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/othmane-elkantaoui/static/css/main.a7dc2dd0.css",
-    "main.js": "/othmane-elkantaoui/static/js/main.6391411d.js",
+    "main.js": "/othmane-elkantaoui/static/js/main.0f0723af.js",
     "static/media/profile4.png": "/othmane-elkantaoui/static/media/profile4.a455406dd5f5f52c5ae6.png",
     "static/media/profile3.png": "/othmane-elkantaoui/static/media/profile3.9b27d502a02fe4929a66.png",
     "static/media/movie-finder.png": "/othmane-elkantaoui/static/media/movie-finder.3e75a34ddfba1b0ff8ec.png",
@@ -12,10 +12,10 @@
     "static/media/library.png": "/othmane-elkantaoui/static/media/library.9f8b500f7b1c3aab3747.png",
     "index.html": "/othmane-elkantaoui/index.html",
     "main.a7dc2dd0.css.map": "/othmane-elkantaoui/static/css/main.a7dc2dd0.css.map",
-    "main.6391411d.js.map": "/othmane-elkantaoui/static/js/main.6391411d.js.map"
+    "main.0f0723af.js.map": "/othmane-elkantaoui/static/js/main.0f0723af.js.map"
   },
   "entrypoints": [
     "static/css/main.a7dc2dd0.css",
-    "static/js/main.6391411d.js"
+    "static/js/main.0f0723af.js"
   ]
 }
