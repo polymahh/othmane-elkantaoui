@@ -26,7 +26,7 @@ export const Contact = (props)=> {
                 </div>
             </div>
             {/* form */}
-            <form action="" className="flex flex-col gap-4 mx-2">
+            <form action="https://formsubmit.co/otman.elkantaoui@gmail.com" method="POST" className="flex flex-col gap-4 mx-2">
                 <input type="text" name="fullName" placeholder="Full Name" required/>
                 <input type="email" name="email" placeholder="Email Adress" required/>
                 <textarea name="message" cols="6" rows="10" placeholder="Your message" required></textarea>

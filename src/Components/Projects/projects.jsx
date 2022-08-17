@@ -3,21 +3,21 @@ import { ProjectCard } from "../ProjectCard/projectCard"
 
 const projectList =[
     {
-        image:'rock-paper-sisor.png',
-        title:'Rock Paper Sisor',
-        description:'a basic Game of rock paper sisor against randomly chosen choices by the computer',
-        stack:['HTML5', 'CSS3', 'JavaScript'],
-        liveLink:'https://polymahh.github.io/rock-paper-sisor/',
-        gitLink:'https://github.com/polymahh/rock-paper-sisor',
+        image:'weather-app.png',
+        title:'Weather App',
+        description:'A Weather App fethshing daily, hourly and multiple cities weather data from an Api, the styling was done using tailwindcss',
+        stack:['Tailwindcss', 'React', 'Luxon'],
+        liveLink:'https://polymahh.github.io/weather-app/',
+        gitLink:'https://github.com/polymahh/weather-app',
         style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2"
     },
     {
-        image:'library.png',
-        title:'Library',
-        description:'a website where you can track your books read or soon to be read',
-        stack:['HTML5', 'CSS3', 'JavaScript'],
-        liveLink:'https://polymahh.github.io/rock-paper-sisor/',
-        gitLink:'https://github.com/polymahh/rock-paper-sisor',
+        image:'shopping-cart.png',
+        title:'Shopping Cart',
+        description:'A shopping website utilising react context and browser routing ',
+        stack:['React', 'CSS3', 'react-router-dom'],
+        liveLink:'https://polymahh.github.io/shopping-cart',
+        gitLink:'https://github.com/polymahh/shopping-cart',
         style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2"
 
     },
@@ -28,6 +28,26 @@ const projectList =[
         stack:['HTML5', 'CSS3'],
         liveLink:'https://polymahh.github.io/Admin-Dashboard/',
         gitLink:'https://github.com/polymahh/Admin-Dashboard',
+        style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2"
+
+    },
+    {
+        image:'movie-finder.png',
+        title:'Movie Finder',
+        description:'This is a movie finder with the help www.omdbapi.com/ api and utlising react-router-dom ',
+        stack:['React', 'CSS3', 'react-router-dom'],
+        liveLink:'https://polymahh.github.io/MovieFinder/',
+        gitLink:'https://github.com/polymahh/MovieFinder',
+        style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2"
+
+    },
+    {
+        image:'library.png',
+        title:'Library',
+        description:'A website where you can track your books read or soon to be read',
+        stack:['HTML5', 'CSS3', 'JavaScript'],
+        liveLink:'https://polymahh.github.io/Library/',
+        gitLink:'https://github.com/polymahh/Library',
         style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2"
 
     }

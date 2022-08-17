@@ -1,6 +1,6 @@
 import { IoSnow } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
-import { IoLogoFacebook } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io5";
 
 export const Footer = ()=> {
     return (
@@ -10,14 +10,15 @@ export const Footer = ()=> {
                 <div className="flex items-center gap-4 place-self-center lg:place-self-start">
                     <IoSnow className="text-2xl text-grey-p row-span-2"/>
                     <div>
-                    <a href='/'>GitHub for this website</a>
+                    <a href='https://github.com/polymahh/othmane-elkantaoui'>GitHub for this website</a>
                     </div>
                     
                 </div>
                 <div className="flex items-center gap-4 place-self-center text-2xl lg:place-self-end">
                 <IoSnow />
-                <IoLogoLinkedin />
-                <IoLogoFacebook />
+                <a href="https://wa.me/212651082371"><IoLogoWhatsapp /></a>
+                <a href="https://www.linkedin.com/in/othmane-elkantaoui-356a91174/"><IoLogoLinkedin /></a>
+                
 
                 </div>
             </div>

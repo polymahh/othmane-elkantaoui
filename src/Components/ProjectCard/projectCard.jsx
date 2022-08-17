@@ -21,8 +21,8 @@ export const ProjectCard = ({item})=>{
                 </div>
             </div>
             <div className="place-self-center">
-                <a className="btn bg-red-p text-grey-p  hover:bg-grey-p hover:text-black-p" href={item.liveLink}>Live Demo</a>
-                <a className="btn bg-black-p text-grey-p hover:bg-grey-p hover:text-black-p" href={item.gitLink}>GitHub</a>
+                <a className="btn bg-red-p text-grey-p  hover:bg-grey-p hover:text-black-p" href={item.liveLink} target="_blank">Live Demo</a>
+                <a className="btn bg-black-p text-grey-p hover:bg-grey-p hover:text-black-p" href={item.gitLink} target="_blank">GitHub</a>
             </div>
             
         </div>

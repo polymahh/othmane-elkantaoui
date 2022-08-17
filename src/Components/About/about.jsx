@@ -4,17 +4,17 @@ import { IoSnow } from "react-icons/io5";
 export const About = (props)=> {
     return(
         <>
-        <div ref={props.about} className="mt-8  p-4 sm:grid grid-cols-2  items-center justify-around lg:w-[976px]	">
+        <div ref={props.about} className="mt-8  p-4 md:grid md:grid-cols-2  items-center justify-around lg:w-[976px]	">
         <div >
             <div className="text-4xl   font-bold">
                 HI, I'M OTHMANE.<br />
-                A FRONTEND DEVELOPER <br />
+                A FRONT-END DEVELOPER <br />
                 WITH A PASSION FOR <br />
                 ALL THINGS WEB DEVELOPMENT.
                 
             </div>
             <div className="mt-4 text-xl font-semibold  items-center gap-2 sm:flex " >
-            <span>FRONTEND </span>
+            <span>FRONT-END </span>
             <IoSnow className="text-sm text-red-p"/>
             <span> DEVELOPMENT </span>
             <IoSnow className="text-sm text-red-p"/>
@@ -30,7 +30,7 @@ export const About = (props)=> {
 
         </div>
         {/* image */}
-        <img className=" sm:w-full  " src="https://assets.website-files.com/62673e4070051ac9b30ad8c7/626a08b7ad20d840cca00273_Header%20Image%20Large.png"  alt="othmane" />
+        <img className="   sm:w-3/4 m-auto" src={require(`../Assets/profile4.png`)}  alt="othmane" />
         </div>
         {/* scrolling bar */}
         <div className="relative overflow-hidden min-w-full bg-black-p p-12 my-6 whitespace-nowrap">
