@@ -16,7 +16,7 @@ export const Footer = ()=> {
                 </div>
                 <div className="flex items-center gap-4 place-self-center text-2xl lg:place-self-end">
                 <IoSnow />
-                <a href="https://wa.me/212651082371"><IoLogoWhatsapp /></a>
+                <a href="https://wa.me/212690008290"><IoLogoWhatsapp /></a>
                 <a href="https://www.linkedin.com/in/othmane-elkantaoui-356a91174/"><IoLogoLinkedin /></a>
                 
 

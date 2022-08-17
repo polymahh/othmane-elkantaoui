@@ -21,7 +21,7 @@ export const Contact = (props)=> {
                     
                     <div className='md:flex gap-4 justify-center'>
                     <a href="mailto:otman.elkantaoui@gmail.com" className='btn flex items-center gap-1'><IoAt/>Message</a>
-                    <a href="https://wa.me/212651082371" className='btn flex items-center gap-2'><IoLogoWhatsapp/>Whatsapp</a>
+                    <a href="https://wa.me/212690008290" className='btn flex items-center gap-2'><IoLogoWhatsapp/>Whatsapp</a>
                     </div>
                 </div>
             </div>
