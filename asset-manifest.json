@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7dc2dd0.css",
-    "main.js": "/static/js/main.5e8923db.js",
-    "static/media/profile4.png": "/static/media/profile4.a455406dd5f5f52c5ae6.png",
-    "static/media/profile3.png": "/static/media/profile3.9b27d502a02fe4929a66.png",
-    "static/media/movie-finder.png": "/static/media/movie-finder.3e75a34ddfba1b0ff8ec.png",
-    "static/media/weather-app.png": "/static/media/weather-app.136e69daee13f8f79488.png",
-    "static/media/shopping-cart.png": "/static/media/shopping-cart.2cc4f3ed2c03df0591d3.png",
-    "static/media/admin-dashboard.png": "/static/media/admin-dashboard.62b684d515015487f5b5.png",
-    "static/media/CV-Othmane-Elkantaoui.pdf": "/static/media/CV-Othmane-Elkantaoui.ae962a1356c3daa1ec08.pdf",
-    "static/media/library.png": "/static/media/library.9f8b500f7b1c3aab3747.png",
-    "index.html": "/index.html",
-    "main.a7dc2dd0.css.map": "/static/css/main.a7dc2dd0.css.map",
-    "main.5e8923db.js.map": "/static/js/main.5e8923db.js.map"
+    "main.css": "/othmane-elkantaoui/static/css/main.a7dc2dd0.css",
+    "main.js": "/othmane-elkantaoui/static/js/main.e76427ab.js",
+    "static/media/profile4.png": "/othmane-elkantaoui/static/media/profile4.a455406dd5f5f52c5ae6.png",
+    "static/media/profile3.png": "/othmane-elkantaoui/static/media/profile3.9b27d502a02fe4929a66.png",
+    "static/media/movie-finder.png": "/othmane-elkantaoui/static/media/movie-finder.3e75a34ddfba1b0ff8ec.png",
+    "static/media/weather-app.png": "/othmane-elkantaoui/static/media/weather-app.136e69daee13f8f79488.png",
+    "static/media/shopping-cart.png": "/othmane-elkantaoui/static/media/shopping-cart.2cc4f3ed2c03df0591d3.png",
+    "static/media/admin-dashboard.png": "/othmane-elkantaoui/static/media/admin-dashboard.62b684d515015487f5b5.png",
+    "static/media/CV-Othmane-Elkantaoui.pdf": "/othmane-elkantaoui/static/media/CV-Othmane-Elkantaoui.ae962a1356c3daa1ec08.pdf",
+    "static/media/library.png": "/othmane-elkantaoui/static/media/library.9f8b500f7b1c3aab3747.png",
+    "index.html": "/othmane-elkantaoui/index.html",
+    "main.a7dc2dd0.css.map": "/othmane-elkantaoui/static/css/main.a7dc2dd0.css.map",
+    "main.e76427ab.js.map": "/othmane-elkantaoui/static/js/main.e76427ab.js.map"
   },
   "entrypoints": [
     "static/css/main.a7dc2dd0.css",
-    "static/js/main.5e8923db.js"
+    "static/js/main.e76427ab.js"
   ]
 }
