@@ -24,7 +24,7 @@ export const About = (props)=> {
             <div className="flex justify-center">
                 {/* <button className="mr-0 md:mr-8 bg-black-p text-grey-p hover:bg-grey-p hover:text-black-p">DOWLOAD RESUME</button> */}
                 <a className="btn mr-0 md:mr-8 bg-black-p text-grey-p hover:bg-grey-p hover:text-black-p"
-                href="../media/CV-Othmane-Elkantaoui.ae962a1356c3daa1ec08.pdf" download>DOWLOAD RESUME</a>
+                href="./static/media/CV-Othmane-Elkantaoui.ae962a1356c3daa1ec08.pdf" download>DOWLOAD RESUME</a>
                 <button className="mr-0 md:mr-8" onClick={()=> props.ScrollDown(props.contactRef)}>CONTACT</button>
             </div>
 
