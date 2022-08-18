@@ -10,7 +10,7 @@ export const Header = (props)=> {
 
 
     return(
-        <>
+        <div className=" overflow-hidden">
             <div className="flex justify-between bg-transparent items-center font-semibold lg:w-[976px]">
                 <div className="text-4xl p-4 font-bold flex text-red-p gap-2 items-end">
                     <IoSnow/> O.ELK
@@ -26,11 +26,11 @@ export const Header = (props)=> {
                     Contact
                 </button>
                 <button className=" sm:hidden py-1 px-2" onClick={()=> toggleMenu()}>
-                <IoMenu className=" text-2xl"/>
+                {menu ? <span className="px-2 text-md">X</span> : <IoMenu className=" text-2xl"/> }
                 </button>
                 
             </div>
-            <div className={!menu ? "hidden" : "flex flex-col bg-black-p text-grey-p absolute right-0 top-16 px-6 w-3/5 min-w-max "}>
+            <div className={!menu ? " opacity-0 absolute bg-black-p text-grey-p top-16 px-6 scale-x-0 right-[-180px] transition-all ease-in-out delay-300 h-full" : "opacity-100 flex flex-col bg-black-p text-grey-p absolute right-0 top-16 px-6 w-2/5 min-w-max transition-all ease-in-out delay-300 h-full "}>
                     <ul>
                         {/* <li bg-black-p>Home</li> */}
                         <li onClick={()=> {
@@ -49,7 +49,7 @@ export const Header = (props)=> {
                     Contact
                 </button>
             </div>
-        </>
+        </div>
     )
     
 }
