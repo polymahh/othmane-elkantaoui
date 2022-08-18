@@ -5,7 +5,7 @@ const projectList =[
     {
         image:'weather-app.png',
         title:'Weather App',
-        description:'A Weather App fethshing daily, hourly and multiple cities weather data from an Api, the styling was done using tailwindcss',
+        description:'A Weather App fetching daily, hourly and multiple cities weather data from an Api, the styling was done using tailwindcss',
         stack:['Tailwindcss', 'React', 'Luxon'],
         liveLink:'https://polymahh.github.io/weather-app/',
         gitLink:'https://github.com/polymahh/weather-app',
@@ -14,7 +14,7 @@ const projectList =[
     {
         image:'shopping-cart.png',
         title:'Shopping Cart',
-        description:'A shopping website utilising react context and browser routing ',
+        description:'A shopping website utilizing react context and browser routing ',
         stack:['React', 'CSS3', 'react-router-dom'],
         liveLink:'https://polymahh.github.io/shopping-cart',
         gitLink:'https://github.com/polymahh/shopping-cart',
@@ -34,7 +34,7 @@ const projectList =[
     {
         image:'movie-finder.png',
         title:'Movie Finder',
-        description:'This is a movie finder with the help www.omdbapi.com/ api and utlising react-router-dom ',
+        description:'This is a movie finder with the help www.omdbapi.com/ api and utlizing react-router-dom ',
         stack:['React', 'CSS3', 'react-router-dom'],
         liveLink:'https://polymahh.github.io/MovieFinder/',
         gitLink:'https://github.com/polymahh/MovieFinder',
