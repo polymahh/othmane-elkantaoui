@@ -16,7 +16,7 @@ export const Contact = (props)=> {
                     <br />
                     <p>Please get in touch with me if you think our work can be mutually binifecial</p>
                     <br />
-                    <div className='flex items-center gap-2'><IoMailOutline/> otman.elkataoui@gmail.com</div>
+                    <div className='flex items-center gap-2'><IoMailOutline/> otman.elkantaoui@gmail.com</div>
                     <div className='flex items-center gap-2'><IoCallOutline/> +212 690008290</div>
                     
                     <div className='md:flex gap-4 justify-center'>
