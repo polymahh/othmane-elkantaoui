@@ -37,40 +37,44 @@ export const About = (props)=> {
             <div className="absolute top-0 left-0 bg-black-p text-grey-p text-2xl flex items-center justify-start gap-6 transition-all delay-100 ease-linear h-full">
                 <div className="flex anim">
                     <div id="holder" className="transition-all delay-200 ease-linear flex items-center">
-                        <IoSnow className="text-xl text-red-p mx-8"/>
-                        <h4>React.Js</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
+                        <h4>React.js</h4>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>JavaScript</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>HTML5</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>CSS3</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>TailWindCss</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>Jest</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>Webpack</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>NPM</h4>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
+                        <h4>Next.js</h4>
                     </div>
                     <div id="holder" className="transition-all delay-200 ease-linear flex items-center">
-                        <IoSnow className="text-xl text-red-p mx-8"/>
-                        <h4>React.Js</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
+                        <h4>React.js</h4>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>JavaScript</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>HTML5</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>CSS3</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>TailWindCss</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>Jest</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>Webpack</h4>
-                        <IoSnow className="text-xl text-red-p mx-8"/>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>NPM</h4>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
+                        <h4>Next.js</h4>
                     </div>
                 </div>
             </div>

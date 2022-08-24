@@ -3,6 +3,16 @@ import { ProjectCard } from "../ProjectCard/projectCard"
 
 const projectList =[
     {
+        image:'EcommercePage.jpg',
+        title:'Ecommerce Product Page',
+        description:'This was a challenge from Frontend Mentor to build an e-commerce product page using NextJs ',
+        stack:['NextJs', 'CSS3', 'ContextAPI'],
+        liveLink:'https://ecommerce-product-page-blue.vercel.app/',
+        gitLink:'https://github.com/polymahh/ecommerce-product-page',
+        style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2"
+
+    },
+    {
         image:'weather-app.png',
         title:'Weather App',
         description:'A Weather App fetching daily, hourly and multiple cities weather data from an Api, the styling was done using tailwindcss',
