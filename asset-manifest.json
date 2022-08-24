@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/othmane-elkantaoui/static/css/main.0bfccecf.css",
-    "main.js": "/othmane-elkantaoui/static/js/main.3d168be1.js",
+    "main.css": "/othmane-elkantaoui/static/css/main.54b3f0a1.css",
+    "main.js": "/othmane-elkantaoui/static/js/main.167df52d.js",
     "static/media/profile4.png": "/othmane-elkantaoui/static/media/profile4.a455406dd5f5f52c5ae6.png",
     "static/media/profile3.png": "/othmane-elkantaoui/static/media/profile3.9b27d502a02fe4929a66.png",
     "static/media/movie-finder.png": "/othmane-elkantaoui/static/media/movie-finder.3e75a34ddfba1b0ff8ec.png",
     "static/media/weather-app.png": "/othmane-elkantaoui/static/media/weather-app.136e69daee13f8f79488.png",
     "static/media/shopping-cart.png": "/othmane-elkantaoui/static/media/shopping-cart.2cc4f3ed2c03df0591d3.png",
     "static/media/admin-dashboard.png": "/othmane-elkantaoui/static/media/admin-dashboard.62b684d515015487f5b5.png",
+    "static/media/EcommercePage.jpg": "/othmane-elkantaoui/static/media/EcommercePage.c4e7b08187048383e390.jpg",
     "static/media/CV-Othmane-Elkantaoui.pdf": "/othmane-elkantaoui/static/media/CV-Othmane-Elkantaoui.ae962a1356c3daa1ec08.pdf",
     "static/media/library.png": "/othmane-elkantaoui/static/media/library.9f8b500f7b1c3aab3747.png",
     "index.html": "/othmane-elkantaoui/index.html",
-    "main.0bfccecf.css.map": "/othmane-elkantaoui/static/css/main.0bfccecf.css.map",
-    "main.3d168be1.js.map": "/othmane-elkantaoui/static/js/main.3d168be1.js.map"
+    "main.54b3f0a1.css.map": "/othmane-elkantaoui/static/css/main.54b3f0a1.css.map",
+    "main.167df52d.js.map": "/othmane-elkantaoui/static/js/main.167df52d.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bfccecf.css",
-    "static/js/main.3d168be1.js"
+    "static/css/main.54b3f0a1.css",
+    "static/js/main.167df52d.js"
   ]
 }
