@@ -16,8 +16,8 @@ const projectList =[
         title:'Store Page',
         description:'This is a Next js project to make a page store with a dynamic cart, using TypeScrit redux and styled with TailwindCss',
         stack:['TypeScript', 'Redux', 'Tailwindcss'],
-        liveLink:'https://ecommerce-product-page-blue.vercel.app/',
-        gitLink:'https://github.com/polymahh/ecommerce-product-page',
+        liveLink:'https://nail-polish.vercel.app/',
+        gitLink:'https://github.com/polymahh/nail-polish',
         style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2"
 
     },
