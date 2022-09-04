@@ -9,6 +9,15 @@ const projectList =[
         stack:['NextJs', 'CSS3', 'ContextAPI'],
         liveLink:'https://ecommerce-product-page-blue.vercel.app/',
         gitLink:'https://github.com/polymahh/ecommerce-product-page',
+        style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2"
+    },
+    {
+        image:'Store-Page.png',
+        title:'Store Page',
+        description:'This is a Next js project to make a page store with a dynamic cart, using TypeScrit redux and styled with TailwindCss',
+        stack:['TypeScript', 'Redux', 'Tailwindcss'],
+        liveLink:'https://ecommerce-product-page-blue.vercel.app/',
+        gitLink:'https://github.com/polymahh/ecommerce-product-page',
         style:"bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2"
 
     },

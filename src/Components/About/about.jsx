@@ -55,6 +55,10 @@ export const About = (props)=> {
                         <h4>NPM</h4>
                         <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>Next.js</h4>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
+                        <h4>Redux</h4>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
+                        <h4>TypeScript</h4>
                     </div>
                     <div id="holder" className="transition-all delay-200 ease-linear flex items-center">
                         <IoSnow className="text-xl text-red-p mx-10"/>
@@ -75,6 +79,10 @@ export const About = (props)=> {
                         <h4>NPM</h4>
                         <IoSnow className="text-xl text-red-p mx-10"/>
                         <h4>Next.js</h4>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
+                        <h4>Redux</h4>
+                        <IoSnow className="text-xl text-red-p mx-10"/>
+                        <h4>TypeScript</h4>
                     </div>
                 </div>
             </div>
