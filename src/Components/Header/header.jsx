@@ -26,12 +26,15 @@ export const Header = (props)=> {
                     Contact
                 </button>
                 <button className=" sm:hidden py-1 px-2" onClick={()=> toggleMenu()}>
-                {menu ? <span className="px-2 text-md">X</span> : <IoMenu className=" text-2xl"/> }
+                <IoMenu className=" text-2xl"/>
                 </button>
                 
             </div>
-            <div className={!menu ? " opacity-0 absolute bg-black-p text-grey-p top-16 px-6 scale-x-0 right-[-180px] transition-all ease-in-out delay-300 h-full" : "opacity-100 flex flex-col bg-black-p text-grey-p absolute right-0 top-16 px-6 w-2/5 min-w-max transition-all ease-in-out delay-300 h-full "}>
+            {menu  && <div className= "opacity-100 flex flex-col bg-black-p text-grey-p absolute right-0 top-0 px-2 w-2/5 min-w-max transition-all ease-in-out delay-300 h-full ">
                     <ul>
+                    <button className=" sm:hidden py-1 px-2 mx-1" onClick={()=> toggleMenu()}>
+                        <span className="px-2 text-md">X</span> 
+                    </button>
                         {/* <li bg-black-p>Home</li> */}
                         <li onClick={()=> {
                             props.ScrollDown(props.about)
@@ -48,7 +51,7 @@ export const Header = (props)=> {
                 }} >
                     Contact
                 </button>
-            </div>
+            </div>}
         </div>
     )
     
