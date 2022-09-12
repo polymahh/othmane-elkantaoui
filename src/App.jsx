@@ -8,9 +8,9 @@ function App() {
     <BrowserRouter>
     <ContextProvider>
 
-      <Routes>
-        <Route path='/othmane-elkantaoui' element={<Home/>}/>
-      </Routes>
+  <Routes>
+ <Route path='/othmane-elkantaoui' element={<Home/>}/>
+</Routes>
     
     </ContextProvider>
     </BrowserRouter>
