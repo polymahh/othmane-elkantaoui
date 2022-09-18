@@ -2,6 +2,17 @@ import { ProjectCard } from '../ProjectCard/projectCard';
 
 const projectList = [
   {
+    image: 'blogr-landing-page.png',
+    title: 'Blogr landing page',
+    description:
+      'This was a challenge from Frontend Mentor to build a service landing page, using tailwindCss to style the project was very challenging ',
+    stack: ['NextJs', 'MobileFirst', 'TailwindCss'],
+    liveLink: 'https://blogr-landing-page-ten-snowy.vercel.app/',
+    gitLink: 'https://github.com/polymahh/blogr-landing-page',
+    style:
+      'bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2',
+  },
+  {
     image: 'static-job-listings.jpg',
     title: 'Dynamic-job-listings',
     description:
