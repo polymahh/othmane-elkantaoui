@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/othmane-elkantaoui/static/css/main.84d77eac.css",
-    "main.js": "/othmane-elkantaoui/static/js/main.bda3245e.js",
+    "main.js": "/othmane-elkantaoui/static/js/main.7e56fe55.js",
     "static/media/profile4.png": "/othmane-elkantaoui/static/media/profile4.a455406dd5f5f52c5ae6.png",
     "static/media/profile3.png": "/othmane-elkantaoui/static/media/profile3.9b27d502a02fe4929a66.png",
     "static/media/movie-finder.png": "/othmane-elkantaoui/static/media/movie-finder.3e75a34ddfba1b0ff8ec.png",
     "static/media/Store-Page.png": "/othmane-elkantaoui/static/media/Store-Page.60d1e1fd376fc55fa7a3.png",
     "static/media/weather-app.png": "/othmane-elkantaoui/static/media/weather-app.136e69daee13f8f79488.png",
+    "static/media/url-shortening.png": "/othmane-elkantaoui/static/media/url-shortening.337d820b29af3f9d94f6.png",
     "static/media/blogr-landing-page.png": "/othmane-elkantaoui/static/media/blogr-landing-page.cf5f7edd19f1216c1d15.png",
     "static/media/shopping-cart.png": "/othmane-elkantaoui/static/media/shopping-cart.2cc4f3ed2c03df0591d3.png",
     "static/media/admin-dashboard.png": "/othmane-elkantaoui/static/media/admin-dashboard.62b684d515015487f5b5.png",
@@ -17,10 +18,10 @@
     "static/media/library.png": "/othmane-elkantaoui/static/media/library.9f8b500f7b1c3aab3747.png",
     "index.html": "/othmane-elkantaoui/index.html",
     "main.84d77eac.css.map": "/othmane-elkantaoui/static/css/main.84d77eac.css.map",
-    "main.bda3245e.js.map": "/othmane-elkantaoui/static/js/main.bda3245e.js.map"
+    "main.7e56fe55.js.map": "/othmane-elkantaoui/static/js/main.7e56fe55.js.map"
   },
   "entrypoints": [
     "static/css/main.84d77eac.css",
-    "static/js/main.bda3245e.js"
+    "static/js/main.7e56fe55.js"
   ]
 }
