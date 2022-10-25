@@ -8,7 +8,7 @@ body{
   @apply bg-grey-p
 }
 li {
-  @apply p-4 list-none decoration-1 hover:cursor-pointer hover:underline hover:underline-offset-8
+  @apply p-4 list-none decoration-1 hover:cursor-pointer hover:text-red-p 
 }
 
 button,.btn{
