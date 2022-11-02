@@ -3,12 +3,14 @@ export const ProjectCard = ({ item }) => {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:w-[976px] my-40 ">
         <div className="text-3xl font-bold items-center gap-2 ml-4">
+          {/* title and description */}
           <h1 className="text-3xl font-bold flex items-center gap-2">
             {item.title}{" "}
           </h1>
           <p className="text-2xl font-bold">{item.description}</p>
         </div>
         <div className={item.style}>
+          {/* image and bg box */}
           <img className="opacity-0" src={item.image} alt="" />
           <img
             className="absolute bottom-6 sm:right-4 sm:w-fit"
@@ -24,6 +26,7 @@ export const ProjectCard = ({ item }) => {
           </div>
         </div>
         <div className="place-self-center">
+          {/* buttons */}
           <a
             className="btn bg-red-p text-grey-p  hover:bg-grey-p hover:text-black-p"
             href={item.liveLink}

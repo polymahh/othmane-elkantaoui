@@ -2,6 +2,17 @@ import { ProjectCard } from "../ProjectCard/projectCard";
 
 const projectList = [
   {
+    image: "rest-countries-api.jpg",
+    title: "Rest-Countries-api",
+    description:
+      "This is a Next js project for making a url shortner website using an Api and styled with TailwindCss",
+    stack: ["Nextjs", "Context api", "TailwindCss"],
+    liveLink: "http://rest-countries-api-polymahh.vercel.app/",
+    gitLink: "https://github.com/polymahh/rest-countries-api",
+    style:
+      "bg-red-p relative sm:w-3/4  place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2",
+  },
+  {
     image: "url-shortening.png",
     title: "url-shortening",
     description:

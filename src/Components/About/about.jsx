@@ -1,13 +1,24 @@
 import { IoSnow } from "react-icons/io5";
+import { useInView } from "react-intersection-observer";
 
 export const About = (props) => {
+  const { ref, inView } = useInView({ triggerOnce: true });
+  const { ref: imgref, inView: imginView } = useInView({ triggerOnce: true });
+
   return (
     <>
       <div
         ref={props.about}
         className="mt-8  p-4 md:grid md:grid-cols-2  items-center justify-around lg:w-[976px]	"
       >
-        <div>
+        <div
+          ref={ref}
+          className={
+            inView
+              ? "opacity-100 ease-in duration-500"
+              : "opacity-0 -translate-x-1/3"
+          }
+        >
           <div className="text-4xl   font-bold">
             HI, I'M OTHMANE.
             <br />
@@ -43,7 +54,16 @@ export const About = (props) => {
           </div>
         </div>
         {/* image */}
-        <img className="   sm:w-3/4 m-auto" src="profile4.png" alt="othmane" />
+        <img
+          ref={imgref}
+          className={
+            imginView
+              ? "opacity-100 ease-in delay-200 duration-500 sm:w-3/4 m-auto"
+              : "opacity-0 translate-x-1/3"
+          }
+          src="profile4.png"
+          alt="othmane"
+        />
       </div>
       {/* scrolling bar */}
       <div className="relative overflow-hidden min-w-full bg-black-p p-12 my-6 whitespace-nowrap">
