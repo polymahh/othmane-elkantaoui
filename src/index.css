@@ -16,6 +16,10 @@ button,.btn{
                     
 }
 
+.ez{
+  @apply ease-in duration-300
+}
+
 input,textarea{
   @apply rounded-md p-2 text-xl border border-grey-l focus:outline-red-s text-black-p
 }
