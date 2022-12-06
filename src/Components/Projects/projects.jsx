@@ -9,8 +9,6 @@ const projectList = [
     stack: ["Nextjs", "Context api", "TailwindCss"],
     liveLink: "http://rest-countries-api-polymahh.vercel.app/",
     gitLink: "https://github.com/polymahh/rest-countries-api",
-    style:
-      "bg-red-p relative sm:w-3/4  place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2",
   },
   {
     image: "url-shortening.png",
@@ -20,8 +18,6 @@ const projectList = [
     stack: ["Nextjs", "LocalStorage", "TailwindCss"],
     liveLink: "https://url-shortening-yzqm.vercel.app/",
     gitLink: "https://github.com/polymahh/url-shortening",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2",
   },
   {
     image: "blogr-landing-page.png",
@@ -31,8 +27,6 @@ const projectList = [
     stack: ["NextJs", "MobileFirst", "TailwindCss"],
     liveLink: "https://blogr-landing-page-ten-snowy.vercel.app/",
     gitLink: "https://github.com/polymahh/blogr-landing-page",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2",
   },
   {
     image: "static-job-listings.jpg",
@@ -129,9 +123,11 @@ export const Projects = (props) => {
     <>
       <div
         ref={props.projects}
-        className="w-full pt-4 text-black-p flex flex-col items-center"
+        className="w-full pt-4 text-black-p flex flex-col items-center "
       >
-        {/* <span className="text-4xl font-bold ">PROJECTS</span> */}
+        <span className=" text-grey-p text-4xl font-bold mt-14 px-8 py-2 bg-black-p rounded-lg">
+          PROJECTS.
+        </span>
         <div>
           {projectList.map((item) => (
             <ProjectCard key={item.title} item={item} />
