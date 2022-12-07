@@ -56,13 +56,13 @@ export const ProjectCard = ({ item }) => {
           </div>
           <div>
             <p
-              className={`py-2 text-sm font-bold flex items-center text-grey-p justify-around gap-2 `}
+              className={`py-2 text-sm font-bold flex items-center text-grey-p justify-around   divide-x-2`}
             >
-              <span>STACK:</span>
+              {/* <span>STACK:</span> */}
               {item.stack.map((item) => (
-                <span>{item}</span>
+                <span className="px-2">{item}</span>
               ))}
-              <IoCaretForwardCircleSharp className="text-lg " />
+              {/* <IoCaretForwardCircleSharp className="text-lg " /> */}
             </p>
           </div>
         </div>

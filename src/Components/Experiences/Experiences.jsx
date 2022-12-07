@@ -1,25 +1,38 @@
+import { IoSnow } from "react-icons/io5";
+import ExperienceCard from "../ExperienceCard/ExperienceCard";
+
 const experienceList = [
+  // {
+  //   image: "rest-countries-api.jpg",
+  //   title: "seocomponent.com",
+  //   description:
+  //     "seocomponent.com is a collection of all types oftechnical seo elements for websites so developers sped more time designing and building ",
+  //   whatiDid: [
+  //     "Built new schema generators for various types of pages e.g.: Article,Event, Recipe , Job Posting …",
+  //     "Optimized the code by creating new reusable components and tools so to make creation of new generators easier",
+  //     "Establishing a new context to share states between components seamlessly",
+  //   ],
+  //   stack: ["Nextjs", "Typescript", "TailwindCss", "Context api"],
+  //   status: "Freelance (2022-09/2022-11)",
+  //   liveLink: "https://www.seocomponent.com/",
+  // },
   {
-    image: "rest-countries-api.jpg",
-    title: "Rest-Countries-api",
+    image: [
+      "datamine-desktop.png",
+      "datamine-tablet.png",
+      "datamine-mobile.png",
+    ],
+    title: "Data Mine",
     description:
-      "This is a Next js project for making a url shortner website using an Api and styled with TailwindCss",
-    stack: ["Nextjs", "Context api", "TailwindCss"],
-    liveLink: "http://rest-countries-api-polymahh.vercel.app/",
-    gitLink: "https://github.com/polymahh/rest-countries-api",
-    style:
-      "bg-red-p relative sm:w-3/4  place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2",
-  },
-  {
-    image: "url-shortening.png",
-    title: "url-shortening",
-    description:
-      "This is a Next js project for making a url shortner website using an Api and styled with TailwindCss",
-    stack: ["Nextjs", "LocalStorage", "TailwindCss"],
-    liveLink: "https://url-shortening-yzqm.vercel.app/",
-    gitLink: "https://github.com/polymahh/url-shortening",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2",
+      "Data mine is an open source project to create a public facing directory website for Prifina dynamic data to easily find all types of data objects and attributes available for the development of user-held data apps.",
+    whatiDid: [
+      "Worked with a ui/ux designer to make the frontend of theproject following figma designs",
+      "Connected the website to Prifina notion data-base through an express server and established the routing and a context to make calls to the api only if needed ",
+      "Coded the sorting by search or by categories or by status logic from scratch",
+    ],
+    stack: ["Nextjs", "Typescript", "TailwindCss", "Context api"],
+    status: "OpenSource (in Progress 2022-11 / present)",
+    liveLink: "http://data-mine.vercel.app/",
   },
 ];
 
@@ -30,10 +43,14 @@ export const Experiences = (props) => {
         ref={props.projects}
         className="w-full pt-4 text-black-p flex flex-col items-center "
       >
-        <span className=" text-grey-p text-4xl font-bold mt-14 px-8 py-2 bg-black-p rounded-lg">
-          Experiences.
-        </span>
-        <div></div>
+        <IoSnow className="text-red-p mt-14 text-6xl" />
+        <span className="text-6xl font-bold mt-4 ">Experience.</span>
+        <span className=" text-2xl  mt-4">Recent Clients & Contributions.</span>
+        <div>
+          {experienceList.map((item) => (
+            <ExperienceCard key={item.title} item={item} />
+          ))}
+        </div>
       </div>
     </>
   );

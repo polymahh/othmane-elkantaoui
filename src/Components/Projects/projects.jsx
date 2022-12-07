@@ -1,4 +1,5 @@
 import { ProjectCard } from "../ProjectCard/projectCard";
+import { IoSnow } from "react-icons/io5";
 
 const projectList = [
   {
@@ -6,7 +7,7 @@ const projectList = [
     title: "Rest-Countries-api",
     description:
       "This is a Next js project for making a url shortner website using an Api and styled with TailwindCss",
-    stack: ["Nextjs", "Context api", "TailwindCss"],
+    stack: ["Nextjs", "Typescript", "Context api", "TailwindCss"],
     liveLink: "http://rest-countries-api-polymahh.vercel.app/",
     gitLink: "https://github.com/polymahh/rest-countries-api",
   },
@@ -15,7 +16,7 @@ const projectList = [
     title: "url-shortening",
     description:
       "This is a Next js project for making a url shortner website using an Api and styled with TailwindCss",
-    stack: ["Nextjs", "LocalStorage", "TailwindCss"],
+    stack: ["Nextjs", "Typescript", "LocalStorage", "TailwindCss"],
     liveLink: "https://url-shortening-yzqm.vercel.app/",
     gitLink: "https://github.com/polymahh/url-shortening",
   },
@@ -24,7 +25,7 @@ const projectList = [
     title: "Blogr landing page",
     description:
       "This was a challenge from Frontend Mentor to build a service landing page, using tailwindCss to style the project was very challenging ",
-    stack: ["NextJs", "MobileFirst", "TailwindCss"],
+    stack: ["NextJs", "Typescript", "TailwindCss", "MobileFirst"],
     liveLink: "https://blogr-landing-page-ten-snowy.vercel.app/",
     gitLink: "https://github.com/polymahh/blogr-landing-page",
   },
@@ -33,11 +34,9 @@ const projectList = [
     title: "Dynamic-job-listings",
     description:
       "This is a react project to make a jobs listing page with dynamic filtering through local data and using context api to handle global state ",
-    stack: ["JavaScript", "ContextAPI", "CSS3"],
+    stack: ["React", "ContextAPI", "CSS3"],
     liveLink: "https://static-job-listings-polymahh.vercel.app",
     gitLink: "https://github.com/polymahh/static-job-listings",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2",
   },
   {
     image: "EcommercePage.jpg",
@@ -47,19 +46,15 @@ const projectList = [
     stack: ["NextJs", "CSS3", "ContextAPI"],
     liveLink: "https://ecommerce-product-page-blue.vercel.app/",
     gitLink: "https://github.com/polymahh/ecommerce-product-page",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2",
   },
   {
     image: "Store-Page.png",
     title: "Store Page",
     description:
       "This is a Next js project to make a page store with a dynamic cart, using TypeScrit redux and styled with TailwindCss",
-    stack: ["TypeScript", "Redux", "Tailwindcss"],
+    stack: ["React", "TypeScript", "Redux", "Tailwindcss"],
     liveLink: "https://nail-polish.vercel.app/",
     gitLink: "https://github.com/polymahh/nail-polish",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2",
   },
   {
     image: "weather-app.png",
@@ -69,8 +64,6 @@ const projectList = [
     stack: ["Tailwindcss", "React", "Luxon"],
     liveLink: "https://polymahh.github.io/weather-app/",
     gitLink: "https://github.com/polymahh/weather-app",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2",
   },
   {
     image: "shopping-cart.png",
@@ -80,20 +73,16 @@ const projectList = [
     stack: ["React", "CSS3", "react-router-dom"],
     liveLink: "https://polymahh.github.io/shopping-cart",
     gitLink: "https://github.com/polymahh/shopping-cart",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2",
   },
-  {
-    image: "admin-dashboard.png",
-    title: "Admin Dashboard",
-    description:
-      "Admin dashboard design using Html and Css with a focus on grid layouts",
-    stack: ["HTML5", "CSS3"],
-    liveLink: "https://polymahh.github.io/Admin-Dashboard/",
-    gitLink: "https://github.com/polymahh/Admin-Dashboard",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2",
-  },
+  // {
+  //   image: "admin-dashboard.png",
+  //   title: "Admin Dashboard",
+  //   description:
+  //     "Admin dashboard design using Html and Css with a focus on grid layouts",
+  //   stack: ["HTML5", "CSS3"],
+  //   liveLink: "https://polymahh.github.io/Admin-Dashboard/",
+  //   gitLink: "https://github.com/polymahh/Admin-Dashboard",
+  // },
   {
     image: "movie-finder.png",
     title: "Movie Finder",
@@ -102,8 +91,6 @@ const projectList = [
     stack: ["React", "CSS3", "react-router-dom"],
     liveLink: "https://polymahh.github.io/MovieFinder/",
     gitLink: "https://github.com/polymahh/MovieFinder",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start row-span-2",
   },
   {
     image: "library.png",
@@ -113,8 +100,6 @@ const projectList = [
     stack: ["HTML5", "CSS3", "JavaScript"],
     liveLink: "https://polymahh.github.io/Library/",
     gitLink: "https://github.com/polymahh/Library",
-    style:
-      "bg-red-p relative sm:w-3/4 w:4/5 place-self-center items-start  md:col-start-1 md:row-start-1 row-span-2",
   },
 ];
 
@@ -125,9 +110,9 @@ export const Projects = (props) => {
         ref={props.projects}
         className="w-full pt-4 text-black-p flex flex-col items-center "
       >
-        <span className=" text-grey-p text-4xl font-bold mt-14 px-8 py-2 bg-black-p rounded-lg">
-          PROJECTS.
-        </span>
+        <IoSnow className="text-red-p mt-14 text-6xl" />
+        <span className="text-6xl font-bold mt-4 ">Portfolio.</span>
+        <span className=" text-2xl  mt-4">Favorite & Recent Projects.</span>
         <div>
           {projectList.map((item) => (
             <ProjectCard key={item.title} item={item} />
