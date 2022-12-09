@@ -7,10 +7,7 @@ export const About = (props) => {
 
   return (
     <>
-      <div
-        ref={props.about}
-        className="mt-8  p-4 md:grid md:grid-cols-2  items-center justify-around lg:w-[976px]	"
-      >
+      <div className="mt-8  p-4 md:grid md:grid-cols-2  items-center justify-around lg:w-[976px]	">
         <div
           ref={ref}
           className={
@@ -95,6 +92,8 @@ export const About = (props) => {
               <h4>Redux</h4>
               <IoSnow className="text-xl text-red-p mx-10" />
               <h4>TypeScript</h4>
+              <IoSnow className="text-xl text-red-p mx-10" />
+              <h4>Chakra UI</h4>
             </div>
             <div
               id="holder"
@@ -122,6 +121,8 @@ export const About = (props) => {
               <h4>Redux</h4>
               <IoSnow className="text-xl text-red-p mx-10" />
               <h4>TypeScript</h4>
+              <IoSnow className="text-xl text-red-p mx-10" />
+              <h4>Chakra UI</h4>
             </div>
           </div>
         </div>

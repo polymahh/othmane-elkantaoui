@@ -16,7 +16,10 @@ export const Header = (props) => {
           <ul className="flex items-center text-xl pt-2 ">
             {/* <li>Home</li> */}
             <li onClick={() => props.ScrollDown(props.about)}>About</li>
-            <li onClick={() => props.ScrollDown(props.projects)}>Projects</li>
+            <li onClick={() => props.ScrollDown(props.projects)}>Portfolio</li>
+            <li onClick={() => props.ScrollDown(props.experiences)}>
+              Experiences
+            </li>
           </ul>
         </div>
         <button

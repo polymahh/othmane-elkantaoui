@@ -31,14 +31,14 @@ export const ProjectCard = ({ item }) => {
           }`}
         >
           {/* title and description */}
-          <h1 className="text-2xl font-bold flex items-center  ">
+          <h1 className="text-xl font-bold flex items-center  ">
             {item.title}{" "}
           </h1>
-          <p className="text-xl font-bold pr-4">{item.description}</p>
-          <div className="place-self-center ">
+          <p className="text-lg font-bold pr-4">{item.description}</p>
+          <div className="place-self-center  ">
             {/* buttons */}
             <a
-              className="btn bg-red-p text-grey-p  hover:bg-grey-p hover:text-black-p"
+              className="btn bg-red-p text-grey-p text-lg hover:bg-grey-p hover:text-black-p"
               href={item.liveLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -46,7 +46,7 @@ export const ProjectCard = ({ item }) => {
               Live Demo
             </a>
             <a
-              className="btn bg-black-p text-grey-p hover:bg-grey-p hover:text-black-p"
+              className="btn bg-black-p  text-grey-p text-lg hover:bg-grey-p hover:text-black-p"
               href={item.gitLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export const ProjectCard = ({ item }) => {
           </div>
           <div>
             <p
-              className={`py-2 text-sm font-bold flex items-center text-grey-p justify-around   divide-x-2`}
+              className={`py-2 text-xs font-bold flex items-center text-grey-p justify-around   divide-x-2`}
             >
               {/* <span>STACK:</span> */}
               {item.stack.map((item) => (

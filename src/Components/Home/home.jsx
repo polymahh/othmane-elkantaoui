@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { About } from "../About/about";
+import Aboutme from "../Aboutme/Aboutme";
 import { Contact } from "../Contact/contact";
 import { Experiences } from "../Experiences/Experiences";
 import { Footer } from "../Footer/footer";
@@ -9,6 +10,7 @@ const Home = () => {
   const contact = useRef();
   const about = useRef();
   const projects = useRef();
+  const experiences = useRef();
 
   const ScrollDown = (ref) => {
     window.scrollTo({
@@ -24,15 +26,16 @@ const Home = () => {
           contactRef={contact}
           projects={projects}
           about={about}
+          experiences={experiences}
         />
         <About
-          about={about}
           ScrollDown={ScrollDown}
           contactRef={contact}
           projects={projects}
         />
+        <Aboutme about={about} />
         <Projects projects={projects} />
-        <Experiences />
+        <Experiences experiences={experiences} />
         <Contact contactRef={contact} />
         <Footer />
       </div>

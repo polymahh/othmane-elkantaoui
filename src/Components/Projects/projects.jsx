@@ -111,8 +111,8 @@ export const Projects = (props) => {
         className="w-full pt-4 text-black-p flex flex-col items-center "
       >
         <IoSnow className="text-red-p mt-14 text-6xl" />
-        <span className="text-6xl font-bold mt-4 ">Portfolio.</span>
-        <span className=" text-2xl  mt-4">Favorite & Recent Projects.</span>
+        <span className="text-4xl font-bold mt-4 ">Portfolio.</span>
+        <span className=" text-xl  mt-4">Favorite & Recent Projects.</span>
         <div>
           {projectList.map((item) => (
             <ProjectCard key={item.title} item={item} />
