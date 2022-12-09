@@ -6,7 +6,7 @@ const projectList = [
     image: "rest-countries-api.jpg",
     title: "Rest-Countries-api",
     description:
-      "This is a Next js project for making a url shortner website using an Api and styled with TailwindCss",
+      "this is a challenge to create a website integrating the Rest Countries Api to show countries following a design and implementing search and pagination features ",
     stack: ["Nextjs", "Typescript", "Context api", "TailwindCss"],
     liveLink: "http://rest-countries-api-polymahh.vercel.app/",
     gitLink: "https://github.com/polymahh/rest-countries-api",
