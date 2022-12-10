@@ -12,7 +12,7 @@ export const ProjectCard = ({ item }) => {
       >
         <div
           className={` h-full bg-red-p absolute top-0 left-0 -z-10 md:rounded-md shadow-[0_4px_6px_2px_rgb(0,0,0,0.3)] ez ${
-            inView ? "w-full" : "md:w-[57%]"
+            inView ? "w-full" : "md:w-[58%] lg:w-[550px]"
           } `}
         ></div>
         <div className="relative ">

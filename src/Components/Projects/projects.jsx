@@ -89,7 +89,7 @@ const projectList = [
     description:
       "This is a movie finder with the help www.omdbapi.com/ api and utlizing react-router-dom ",
     stack: ["React", "CSS3", "react-router-dom"],
-    liveLink: "https://polymahh.github.io/MovieFinder/",
+    liveLink: "https://movie-finder-polymahh.vercel.app/",
     gitLink: "https://github.com/polymahh/MovieFinder",
   },
   {

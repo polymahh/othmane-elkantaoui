@@ -4,7 +4,7 @@ const Aboutme = (props) => {
   return (
     <div
       ref={props.about}
-      className="w-full pt-4 text-black-p flex flex-col items-center px-4 lg:px-12"
+      className="w-full pt-4 text-black-p flex flex-col lg:max-w-[960px] items-center px-4 lg:px-12"
     >
       <IoSnow className="text-red-p mt-14 text-6xl" />
       <span className="text-4xl font-bold mt-4 ">About me.</span>
