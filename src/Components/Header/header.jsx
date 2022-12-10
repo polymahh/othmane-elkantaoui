@@ -32,33 +32,35 @@ export const Header = (props) => {
           <IoMenu className=" text-2xl" />
         </button>
       </div>
-      {menu && (
-        <div className="opacity-100 flex flex-col bg-black-p text-grey-p absolute right-0 top-0 px-2 w-2/5 min-w-max transition-all ease-in-out delay-300 h-full ">
-          <ul>
-            <button
-              className=" sm:hidden py-1 px-2 mx-1"
-              onClick={() => toggleMenu()}
-            >
-              <span className="px-2 text-md">X</span>
-            </button>
-            {/* <li bg-black-p>Home</li> */}
-            <li
-              onClick={() => {
-                props.ScrollDown(props.about);
-                toggleMenu();
-              }}
-            >
-              About
-            </li>
-            <li
-              onClick={() => {
-                props.ScrollDown(props.projects);
-                toggleMenu();
-              }}
-            >
-              Projects
-            </li>
-          </ul>
+
+      <div
+        className={`flex flex-col  bg-black-p text-grey-p absolute right-0 top-0 px-2  transition-all ease-in-out duration-300 w-full
+        ${menu ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-60"}`}
+      >
+        <ul className="flex flex-col items-center">
+          <button
+            className=" sm:hidden py-1 px-2 mx-1 self-end "
+            onClick={() => toggleMenu()}
+          >
+            <span className="px-2 text-md">X</span>
+          </button>
+          {/* <li bg-black-p>Home</li> */}
+          <li
+            onClick={() => {
+              props.ScrollDown(props.about);
+              toggleMenu();
+            }}
+          >
+            About
+          </li>
+          <li
+            onClick={() => {
+              props.ScrollDown(props.projects);
+              toggleMenu();
+            }}
+          >
+            Projects
+          </li>
           <button
             className="max-w-max text-base py-1"
             onClick={() => {
@@ -68,8 +70,8 @@ export const Header = (props) => {
           >
             Contact
           </button>
-        </div>
-      )}
+        </ul>
+      </div>
     </div>
   );
 };

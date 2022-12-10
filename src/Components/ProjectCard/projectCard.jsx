@@ -8,14 +8,14 @@ export const ProjectCard = ({ item }) => {
     <>
       <div
         ref={ref}
-        className="flex flex-col relative md:flex-row gap-6 lg:w-[976px] my-40 bg-red-p  md:bg-opacity-0"
+        className="flex flex-col relative md:flex-row gap-6 lg:max-w-[960px] my-40 bg-red-p  md:bg-opacity-0"
       >
         <div
           className={` h-full bg-red-p absolute top-0 left-0 -z-10 md:rounded-md shadow-[0_4px_6px_2px_rgb(0,0,0,0.3)] ez ${
             inView ? "w-full" : "md:w-[57%]"
           } `}
         ></div>
-        <div className="relative  ">
+        <div className="relative ">
           {/* image and bg box */}
           <img className="opacity-0 " src={item.image} alt="" />
           <img
@@ -43,7 +43,7 @@ export const ProjectCard = ({ item }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo
+              Demo
             </a>
             <a
               className="btn bg-black-p  text-grey-p text-lg hover:bg-grey-p hover:text-black-p"

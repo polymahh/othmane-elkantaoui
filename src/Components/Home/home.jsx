@@ -20,7 +20,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="flex flex-col lg:items-center m-auto ">
+      <div className="flex flex-col w-full lg:items-center m-auto ">
         <Header
           ScrollDown={ScrollDown}
           contactRef={contact}

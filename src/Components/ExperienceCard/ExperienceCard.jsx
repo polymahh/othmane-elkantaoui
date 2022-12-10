@@ -8,7 +8,7 @@ const ExperienceCard = ({ item }) => {
   });
 
   return (
-    <div className=" grid  md:grid-cols-2 gap-8 relative lg:w-[976px] my-40 px-4 md:px-12 ">
+    <div className=" grid  md:grid-cols-2 gap-8 relative lg:w-[976px] my-40 px-4 md:px-12 overflow-hidden ">
       <div className="flex flex-col  gap-8">
         <a
           href={item.liveLink}

@@ -108,7 +108,7 @@ export const Projects = (props) => {
     <>
       <div
         ref={props.projects}
-        className="w-full pt-4 text-black-p flex flex-col items-center "
+        className="w-full pt-4 text-black-p flex flex-col items-center px-2"
       >
         <IoSnow className="text-red-p mt-14 text-6xl" />
         <span className="text-4xl font-bold mt-4 ">Portfolio.</span>
