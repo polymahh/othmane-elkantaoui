@@ -35,7 +35,7 @@ const experienceList = [
       "Coded the sorting by search or by categories or by status logic from scratch",
     ],
     stack: ["Nextjs", "Typescript", "TailwindCss", "Context api"],
-    status: "OpenSource (2022-11 / present) in progress ...",
+    status: "Internship (2022-11 / present) in progress ...",
     liveLink: "http://data-mine.vercel.app/",
   },
 ];
