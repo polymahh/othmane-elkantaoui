@@ -34,7 +34,7 @@ const experienceList = [
       "Connected the website to Prifina notion data-base through an express server and established the routing and a context to make calls to the api as needed ",
       "Coded the sorting by search or by categories or by status logic from scratch",
     ],
-    stack: ["Nextjs", "Typescript", "TailwindCss", "Context api"],
+    stack: ["Reactjs", "Typescript", "Chakra UI", "Notion", "Express.js"],
     status: "Internship (2022-11 / present) in progress ...",
     liveLink: "http://data-mine.vercel.app/",
   },
