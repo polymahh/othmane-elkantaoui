@@ -2,7 +2,7 @@ import { InView, useInView } from "react-intersection-observer";
 import { IoCaretForwardCircleSharp } from "react-icons/io5";
 
 export const ProjectCard = ({ item }) => {
-  const { ref, inView } = useInView({ rootMargin: "-300px 0px" });
+  const { ref, inView } = useInView({ rootMargin: "-100px 0px" });
 
   return (
     <>

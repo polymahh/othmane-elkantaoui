@@ -4,6 +4,25 @@ import ExperienceCard from "../ExperienceCard/ExperienceCard";
 const experienceList = [
   {
     image: [
+      "datamine-desktop.png",
+      "datamine-tablet.png",
+      "datamine-mobile.png",
+    ],
+    title: "Data Mine",
+    description:
+      "Data mine is an open-source project to create a public facing directory website for Prifina dynamic data to easily find all types of data objects and attributes available for developers to create all kinds data apps.",
+    whatiDid: [
+      "Worked with a UI/UX designer to code the frontend of the project following Figma designs using Next.js and Chakra UI.",
+      "Connected the website to the Prifina Notion database and made the website statically generated with a revalidation of 24 hours.",
+      "This method makes the website very fast and also does not hit the API limit set by the Notion database, basically fetching the data once every day.",
+      "Coded the sorting logic by search, categories, or status from scratch.",
+    ],
+    stack: ["Reactjs", "Typescript", "Chakra UI", "Notion", "Express.js"],
+    status: "Internship (2022-11 / 2023-2)",
+    liveLink: "http://data-mine.vercel.app/",
+  },
+  {
+    image: [
       "seocomponent-desktop.png",
       "seocomponent-tablet.png",
       "seocomponent-mobile.png",
@@ -20,24 +39,7 @@ const experienceList = [
     status: "Freelance (2022-09/2022-11)",
     liveLink: "https://www.seocomponent.com/",
   },
-  {
-    image: [
-      "datamine-desktop.png",
-      "datamine-tablet.png",
-      "datamine-mobile.png",
-    ],
-    title: "Data Mine",
-    description:
-      "Data mine is an open-source project to create a public facing directory website for Prifina dynamic data to easily find all types of data objects and attributes available for developers to create all kinds data apps.",
-    whatiDid: [
-      "Worked with a ui/ux designer to code the frontend of the project following figma designs using Reactjs and Chakra ui",
-      "Connected the website to Prifina notion data-base through an express server and established the routing and a context to make calls to the api as needed ",
-      "Coded the sorting by search or by categories or by status logic from scratch",
-    ],
-    stack: ["Reactjs", "Typescript", "Chakra UI", "Notion", "Express.js"],
-    status: "Internship (2022-11 / present) in progress ...",
-    liveLink: "http://data-mine.vercel.app/",
-  },
+ 
 ];
 
 export const Experiences = (props) => {

@@ -94,6 +94,12 @@ export const About = (props) => {
               <h4>TypeScript</h4>
               <IoSnow className="text-xl text-red-p mx-10" />
               <h4>Chakra UI</h4>
+              <IoSnow className="text-xl text-red-p mx-10" />
+              <h4>jQuery</h4>
+              <IoSnow className="text-xl text-red-p mx-10" />
+              <h4>Bootstrap</h4>
+              <IoSnow className="text-xl text-red-p mx-10" />
+              <h4>Git</h4>
             </div>
             <div
               id="holder"
@@ -123,6 +129,12 @@ export const About = (props) => {
               <h4>TypeScript</h4>
               <IoSnow className="text-xl text-red-p mx-10" />
               <h4>Chakra UI</h4>
+              <IoSnow className="text-xl text-red-p mx-10" />
+              <h4>jQuery</h4>
+              <IoSnow className="text-xl text-red-p mx-10" />
+              <h4>Bootstrap</h4>
+              <IoSnow className="text-xl text-red-p mx-10" />
+              <h4>Git</h4>
             </div>
           </div>
         </div>
