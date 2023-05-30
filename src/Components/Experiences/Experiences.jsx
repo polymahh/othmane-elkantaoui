@@ -4,6 +4,22 @@ import ExperienceCard from "../ExperienceCard/ExperienceCard";
 const experienceList = [
   {
     image: [
+      "3wm-desktop.png",
+    ],
+    title: "3WM Maroc",
+    description:
+      "Working as a Frontend developer creating and integrating new pages and new features with html CSS and JavaScript/jQuery",
+      whatiDid: [
+        "Developing new pages and optimizing existing code by refactoring and debugging.",
+        "Quickly learning new and old technologies to adapt to the company's needs (jQuery, bootstrap, twig...) ",
+        "Working closely with the team to ensure the timely achievement of company objectives.",
+      ],
+    stack: ["Html5", "Css3", "JavaScript", "jQuery", "Bootstrap","Twig"],
+    status: "Freelance (2023-02/2022-05)",
+    liveLink: "https://www.3wmedia.ma/",
+  },
+  {
+    image: [
       "datamine-desktop.png",
       "datamine-tablet.png",
       "datamine-mobile.png",
@@ -18,8 +34,8 @@ const experienceList = [
       "Coded the sorting logic by search, categories, or status from scratch.",
     ],
     stack: ["Reactjs", "Typescript", "Chakra UI", "Notion", "Express.js"],
-    status: "Internship (2022-11 / 2023-2)",
-    liveLink: "http://data-mine.vercel.app/",
+    status: "Internship (2022-11 / 2023-02)",
+    liveLink: "https://data-mine-next.vercel.app/",
   },
   {
     image: [
