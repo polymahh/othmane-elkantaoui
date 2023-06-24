@@ -20,7 +20,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="flex flex-col w-full lg:items-center m-auto ">
+      <div className="flex flex-col w-full m-auto lg:items-center ">
         <Header
           ScrollDown={ScrollDown}
           contactRef={contact}
@@ -34,8 +34,8 @@ const Home = () => {
           projects={projects}
         />
         <Aboutme about={about} />
-        <Experiences experiences={experiences} />
         <Projects projects={projects} />
+        <Experiences experiences={experiences} />
         <Contact contactRef={contact} />
         <Footer />
       </div>

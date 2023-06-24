@@ -9,7 +9,7 @@ const ExperienceCard = ({ item }) => {
 
   return (
     <div className=" grid  md:grid-cols-2 gap-8 relative lg:w-[976px] my-20 px-4 md:px-12 overflow-hidden ">
-      <div className="flex flex-col  gap-8">
+      <div className="flex flex-col gap-8">
         <a
           href={item.liveLink}
           target="_blank"
@@ -20,7 +20,7 @@ const ExperienceCard = ({ item }) => {
         </a>
 
         <div>
-          <p className="text-lg font-bold  ">{item.description}</p>
+          <p className="text-lg font-bold ">{item.description}</p>
         </div>
 
         <div className="relative">
@@ -38,7 +38,7 @@ const ExperienceCard = ({ item }) => {
                   } `}
                 >
                   {" "}
-                  <IoCheckmarkCircle className="absolute top-5 left-0 text-red-p" />
+                  <IoCheckmarkCircle className="absolute left-0 top-5 text-red-p" />
                   {text}
                 </span>
               </>
@@ -47,13 +47,13 @@ const ExperienceCard = ({ item }) => {
         </div>
       </div>
 
-      <div className=" flex flex-wrap place-self-center  gap-2 ">
+      <div className="flex flex-col flex-wrap gap-2 md:flex-row place-self-center">
         <span
           className={`text-md text-red-p delay-100 ease-in duration-500 ${
             inView ? "translate-x-0 " : "translate-x-36 opacity-0"
           }`}
         >
-          {item.status}
+          {item.status} test
         </span>
 
         {/* images */}
