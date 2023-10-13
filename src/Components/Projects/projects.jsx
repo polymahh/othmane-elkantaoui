@@ -12,7 +12,7 @@ const projectList = [
     gitLink: "https://github.com/polymahh",
   },
   {
-    image: "rest-countries-api.jpg",
+    image: "rest-countries-api.webp",
     title: "Rest-Countries-api",
     description:
       "this is a challenge to create a website integrating the Rest Countries Api to show countries following a design and implementing search and pagination features ",
@@ -21,7 +21,7 @@ const projectList = [
     gitLink: "https://github.com/polymahh/rest-countries-api",
   },
   {
-    image: "url-shortening.png",
+    image: "url-shortening.webp",
     title: "url-shortening",
     description:
       "This is a Next js project for making a url shortner website using an Api and styled with TailwindCss",
@@ -30,7 +30,7 @@ const projectList = [
     gitLink: "https://github.com/polymahh/url-shortening",
   },
   {
-    image: "blogr-landing-page.png",
+    image: "blogr-landing-page.webp",
     title: "Blogr landing page",
     description:
       "This was a challenge from Frontend Mentor to build a service landing page, using tailwindCss to style the project was very challenging ",
@@ -39,7 +39,7 @@ const projectList = [
     gitLink: "https://github.com/polymahh/blogr-landing-page",
   },
   {
-    image: "static-job-listings.jpg",
+    image: "static-job-listings.webp",
     title: "Dynamic-job-listings",
     description:
       "This is a react project to make a jobs listing page with dynamic filtering through local data and using context api to handle global state ",
@@ -57,7 +57,7 @@ const projectList = [
     gitLink: "https://github.com/polymahh/ecommerce-product-page",
   },
   {
-    image: "Store-Page.png",
+    image: "Store-Page.webp",
     title: "Store Page",
     description:
       "This is a Next js project to make a page store with a dynamic cart, using TypeScrit redux and styled with TailwindCss",
@@ -66,7 +66,7 @@ const projectList = [
     gitLink: "https://github.com/polymahh/nail-polish",
   },
   {
-    image: "weather-app.png",
+    image: "weather-app.webp",
     title: "Weather App",
     description:
       "A Weather App fetching daily, hourly and multiple cities weather data from an Api, the styling was done using tailwindcss",
@@ -75,7 +75,7 @@ const projectList = [
     gitLink: "https://github.com/polymahh/weather-app",
   },
   {
-    image: "shopping-cart.png",
+    image: "shopping-cart.webp",
     title: "Shopping Cart",
     description:
       "A shopping website utilizing react context and browser routing ",
@@ -93,7 +93,7 @@ const projectList = [
   //   gitLink: "https://github.com/polymahh/Admin-Dashboard",
   // },
   {
-    image: "movie-finder.png",
+    image: "movie-finder.webp",
     title: "Movie Finder",
     description:
       "This is a movie finder with the help www.omdbapi.com/ api and utlizing react-router-dom ",
@@ -102,7 +102,7 @@ const projectList = [
     gitLink: "https://github.com/polymahh/MovieFinder",
   },
   {
-    image: "library.png",
+    image: "library.webp",
     title: "Library",
     description:
       "A website where you can track your books read or soon to be read",

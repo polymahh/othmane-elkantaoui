@@ -3,7 +3,7 @@ import ExperienceCard from "../ExperienceCard/ExperienceCard";
 
 const experienceList = [
   {
-    image: ["idurar-desktop.png", "idurar-tablet.webp", "idurar-mobile.webp"],
+    image: ["idurar-desktop.webp", "idurar-tablet.webp", "idurar-mobile.webp"],
     title: "IDURAR",
     description:
       "I had the opportunity to work on a challenging and impactful project focused on the development and enhancement of the Open Source ERP CRM system",
@@ -17,7 +17,7 @@ const experienceList = [
     liveLink: "https://www.idurarapp.com/demo/",
   },
   {
-    image: ["3wm-desktop.png"],
+    image: ["3wm-desktop.webp"],
     title: "3WM Maroc",
     description:
       "Working as a Frontend developer creating and integrating new pages and new features with html CSS and JavaScript/jQuery",
@@ -32,9 +32,9 @@ const experienceList = [
   },
   {
     image: [
-      "datamine-desktop.png",
-      "datamine-tablet.png",
-      "datamine-mobile.png",
+      "datamine-desktop.webp",
+      "datamine-tablet.webp",
+      "datamine-mobile.webp",
     ],
     title: "Data Mine",
     description:
@@ -51,9 +51,9 @@ const experienceList = [
   },
   {
     image: [
-      "seocomponent-desktop.png",
-      "seocomponent-tablet.png",
-      "seocomponent-mobile.png",
+      "seocomponent-desktop.webp",
+      "seocomponent-tablet.webp",
+      "seocomponent-mobile.webp",
     ],
     title: "seocomponent.com",
     description:
