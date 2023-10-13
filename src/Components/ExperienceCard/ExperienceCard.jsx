@@ -53,7 +53,7 @@ const ExperienceCard = ({ item }) => {
             inView ? "translate-x-0 " : "translate-x-36 opacity-0"
           }`}
         >
-          {item.status} test
+          {item.status}
         </span>
 
         {/* images */}

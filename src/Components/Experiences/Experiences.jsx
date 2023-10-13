@@ -3,19 +3,31 @@ import ExperienceCard from "../ExperienceCard/ExperienceCard";
 
 const experienceList = [
   {
-    image: [
-      "3wm-desktop.png",
+    image: ["idurar-desktop.png", "idurar-tablet.webp", "idurar-mobile.webp"],
+    title: "IDURAR",
+    description:
+      "I had the opportunity to work on a challenging and impactful project focused on the development and enhancement of the Open Source ERP CRM system",
+    whatiDid: [
+      "I was responsible for ensuring that the application was accessible and fully functional across all screen sizes.",
+      "I spearheaded the creation of a table component with a hook that improved user experience on various screen sizes and gave a decently accessible table for mobile.",
+      "As a repository maintainer, I actively participated in the code review process, thoroughly assessing and testing community pull requests . This role provided me with a comprehensive understanding of Git and version control.",
     ],
+    stack: ["React.js", "Ant Design", "Redux.js", "LESS", "Node.js"],
+    status: "Internship (2023-07/2023-09)",
+    liveLink: "https://www.idurarapp.com/demo/",
+  },
+  {
+    image: ["3wm-desktop.png"],
     title: "3WM Maroc",
     description:
       "Working as a Frontend developer creating and integrating new pages and new features with html CSS and JavaScript/jQuery",
-      whatiDid: [
-        "Developing new pages and optimizing existing code by refactoring and debugging.",
-        "Quickly learning new and old technologies to adapt to the company's needs (jQuery, bootstrap, twig...) ",
-        "Working closely with the team to ensure the timely achievement of company objectives.",
-      ],
-    stack: ["Html5", "Css3", "JavaScript", "jQuery", "Bootstrap","Twig"],
-    status: "Freelance (2023-02/2022-05)",
+    whatiDid: [
+      "Developing new pages and optimizing existing code by refactoring and debugging.",
+      "Quickly learning new and old technologies to adapt to the company's needs (jQuery, bootstrap, twig...) ",
+      "Working closely with the team to ensure the timely achievement of company objectives.",
+    ],
+    stack: ["Html5", "Css3", "JavaScript", "jQuery", "Bootstrap", "Twig"],
+    status: "Freelance (2023-02/2023-05)",
     liveLink: "https://www.3wmedia.ma/",
   },
   {
@@ -55,7 +67,6 @@ const experienceList = [
     status: "Freelance (2022-09/2022-11)",
     liveLink: "https://www.seocomponent.com/",
   },
- 
 ];
 
 export const Experiences = (props) => {
