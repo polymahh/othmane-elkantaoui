@@ -59,7 +59,7 @@ const ExperienceCard = ({ item }) => {
         {/* images */}
         <div>
           <img
-            className={` max-h-[50vh] delay-100 ease-in  duration-500 ${
+            className={` max-h-[50vh]   delay-100 ease-in  duration-500 ${
               inView ? "translate-x-0 " : "translate-x-36 opacity-0"
             }  `}
             src={item.image[0]}
