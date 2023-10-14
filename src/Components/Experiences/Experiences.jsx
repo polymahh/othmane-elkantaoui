@@ -1,5 +1,5 @@
 import { IoSnow } from "react-icons/io5";
-import ExperienceCard from "../ExperienceCard/ExperienceCard";
+import ExperienceCard from "./ExperienceCard";
 
 const experienceList = [
   {

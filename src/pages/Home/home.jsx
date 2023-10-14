@@ -1,11 +1,11 @@
 import { useRef } from "react";
-import { About } from "../About/about";
-import Aboutme from "../Aboutme/Aboutme";
-import { Contact } from "../Contact/contact";
-import { Experiences } from "../Experiences/Experiences";
-import { Footer } from "../Footer/footer";
-import { Header } from "../Header/header";
-import { Projects } from "../Projects/projects";
+import { About } from "../../Components/About/about";
+import Aboutme from "../../Components/Aboutme/Aboutme";
+import { Contact } from "../../Components/Contact/contact";
+import { Experiences } from "../../Components/Experiences/Experiences";
+import { Footer } from "../../Components/Footer/footer";
+import { Header } from "../../Components/Header/header";
+import { Projects } from "../../Components/Projects/projects";
 const Home = () => {
   const contact = useRef();
   const about = useRef();

@@ -1,4 +1,4 @@
-import { ProjectCard } from "../ProjectCard/projectCard";
+import { ProjectCard } from "./projectCard";
 import { IoSnow } from "react-icons/io5";
 
 const projectList = [

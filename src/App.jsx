@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./Components/Home/home";
+import Home from "./pages/Home/home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ContextProvider } from "./refContext";
 
