@@ -6,7 +6,7 @@ const experienceList = [
     image: ["idurar-desktop.webp", "idurar-tablet.webp", "idurar-mobile.webp"],
     title: "IDURAR",
     description:
-      "I had the opportunity to work on a challenging and impactful project focused on the development and enhancement of the Open Source ERP CRM system",
+      "I had the opportunity to work on a challenging and impactful project focused on the development and enhancement of an Open Source ERP CRM system",
     whatiDid: [
       "I was responsible for ensuring that the application was accessible and fully functional across all screen sizes.",
       "I spearheaded the creation of a table component with a hook that improved user experience on various screen sizes and gave a decently accessible table for mobile.",
