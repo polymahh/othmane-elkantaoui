@@ -95,6 +95,8 @@ export const About = (props) => {
               <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>Chakra UI</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
+              <h4>Ant Design</h4>
+              <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>jQuery</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>Bootstrap</h4>
@@ -129,6 +131,8 @@ export const About = (props) => {
               <h4>TypeScript</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>Chakra UI</h4>
+              <IoSnow className="mx-10 text-xl text-red-p" />
+              <h4>Ant Design</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>jQuery</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
