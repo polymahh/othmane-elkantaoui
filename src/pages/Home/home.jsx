@@ -34,8 +34,8 @@ const Home = () => {
           projects={projects}
         />
         <Aboutme about={about} />
-        <Experiences experiences={experiences} />
         <Projects projects={projects} />
+        <Experiences experiences={experiences} />
         <Contact contactRef={contact} />
         <Footer />
       </div>

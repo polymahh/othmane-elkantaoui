@@ -3,15 +3,6 @@ import { IoSnow } from "react-icons/io5";
 
 const projectList = [
   {
-    image: "tubegiffer.webp",
-    title: "TubeGiffer",
-    description:
-      "This was a fun personel project to create a tool that can help users create clips from youtube videos without downloading the video ",
-    stack: ["Nodejs", "Express", "FFMPEG", "React", "Tailwind"],
-    liveLink: "https://tubegiffer.vercel.app/",
-    gitLink: "https://github.com/polymahh",
-  },
-  {
     image: "rest-countries-api.webp",
     title: "Rest-Countries-api",
     description:
@@ -28,6 +19,15 @@ const projectList = [
     stack: ["Nextjs", "Typescript", "LocalStorage", "TailwindCss"],
     liveLink: "https://url-shortening-yzqm.vercel.app/",
     gitLink: "https://github.com/polymahh/url-shortening",
+  },
+  {
+    image: "tubegiffer.webp",
+    title: "TubeGiffer",
+    description:
+      "This was a fun personel project to create a tool that can help users create clips from youtube videos without downloading the video ",
+    stack: ["Nodejs", "Express", "FFMPEG", "React", "Tailwind"],
+    liveLink: "https://tubegiffer.vercel.app/",
+    gitLink: "https://github.com/polymahh",
   },
   {
     image: "blogr-landing-page.webp",
@@ -74,15 +74,15 @@ const projectList = [
     liveLink: "https://polymahh.github.io/weather-app/",
     gitLink: "https://github.com/polymahh/weather-app",
   },
-  {
-    image: "shopping-cart.webp",
-    title: "Shopping Cart",
-    description:
-      "A shopping website utilizing react context and browser routing ",
-    stack: ["React", "CSS3", "react-router-dom"],
-    liveLink: "https://polymahh.github.io/shopping-cart",
-    gitLink: "https://github.com/polymahh/shopping-cart",
-  },
+  // {
+  //   image: "shopping-cart.webp",
+  //   title: "Shopping Cart",
+  //   description:
+  //     "A shopping website utilizing react context and browser routing ",
+  //   stack: ["React", "CSS3", "react-router-dom"],
+  //   liveLink: "https://polymahh.github.io/shopping-cart",
+  //   gitLink: "https://github.com/polymahh/shopping-cart",
+  // },
   // {
   //   image: "admin-dashboard.png",
   //   title: "Admin Dashboard",
