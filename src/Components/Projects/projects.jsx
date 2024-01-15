@@ -3,10 +3,19 @@ import { IoSnow } from "react-icons/io5";
 
 const projectList = [
   {
+    image: "yassmina-portfolio.webp",
+    title: "Architect-Portfolio",
+    description:
+      "this was a fun project to create a portfolio with Nextjs 13 and contentful CMS , allowing the user to change his data from the CMS interface but keeping the website fast with Nextjs",
+    stack: ["Nextjs", "Contentful", "React Query", "Framer Motion"],
+    liveLink: "https://yassmina-portfolio.vercel.app/projects",
+    gitLink: "https://github.com/polymahh/yassmina-portfolio",
+  },
+  {
     image: "rest-countries-api.webp",
     title: "Rest-Countries-api",
     description:
-      "this is a challenge to create a website integrating the Rest Countries Api to show countries following a design and implementing search and pagination features ",
+      "this is a challenge to create a website integrating the Rest Countries Api to show countries, following a design and implementing search and pagination features ",
     stack: ["Nextjs", "Typescript", "Context api", "TailwindCss"],
     liveLink: "http://rest-countries-api-polymahh.vercel.app/",
     gitLink: "https://github.com/polymahh/rest-countries-api",

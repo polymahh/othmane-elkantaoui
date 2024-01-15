@@ -81,11 +81,11 @@ export const About = (props) => {
               <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>TailWindCss</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
-              <h4>Jest</h4>
+              <h4>Framer Motion</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
-              <h4>Webpack</h4>
+              <h4>Shadcn</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
-              <h4>NPM</h4>
+              <h4>React Query</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>Next.js</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
@@ -118,11 +118,11 @@ export const About = (props) => {
               <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>TailWindCss</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
-              <h4>Jest</h4>
+              <h4>Framer Motion</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
-              <h4>Webpack</h4>
+              <h4>Shadcn</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
-              <h4>NPM</h4>
+              <h4>React Query</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
               <h4>Next.js</h4>
               <IoSnow className="mx-10 text-xl text-red-p" />
